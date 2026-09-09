@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "tearhero",
+	"name": "TearHero",
+	"version": "0.2.0",
+	"author": "Daniel Poprawski",
+	"description": "20-20-20 eye-break reminder with normal and silent modes",
+	"kinds": ["bar-widget"],
+	"entryPoints": {
+		"barWidget": "BarWidget.qml"
+	},
+	"barWidget": {
+		"displayName": "TearHero",
+		"description": "Eye-break timer for the Omarchy status bar",
+		"category": "Time",
+		"defaultSection": "right",
+		"allowMultiple": false
+	}
+}
